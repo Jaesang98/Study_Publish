@@ -143,3 +143,11 @@
         - normalize.css
             => 각 브라우저마다 UI가 다르게 보이는것을 없애준다
             https://github.com/necolas/normalize.css/blob/master/normalize.css 
+
+
+## part 1-13 form & input
+    1. form 
+        => 서버관련 태그
+
+    2. input
+        => 여러가지 타입이 있다
