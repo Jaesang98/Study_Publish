@@ -181,3 +181,49 @@ body {
     color: black;
     font-weight: 500;
 }
+
+.hw2-form {
+    width: 30%;
+    height: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    padding: 30px;
+    border: 1px solid black
+}
+
+.hw2-name {
+    font-size: 20px;
+}
+
+.hw2-input {
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.hw2-title {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.hw2-name-content {
+    width: 47%;
+    float: left;
+}
+
+.hw2-right {
+    float: right;
+}
+
+.hw2-btn {
+    padding: 20px;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    position: relative;
+    left: 300px;
+    top: 20px;
+    background-color: yellow;
+}
