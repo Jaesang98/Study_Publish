@@ -151,3 +151,23 @@
 
     2. input
         => 여러가지 타입이 있다
+
+
+## part 1-14 form & input 숙제 : Contact Us 섹션 만들기
+    1. 숙제하면서 깨달은점
+        - border-radius는 꼭 써야하겟다
+        - 재사용 클래스 스타일을 사용하자
+
+
+## part 1-15 쓸데 많은 Table 레이아웃과 vertical-align속성
+    1. table 사용 시 스타일링
+        - table { border-collapse: collapse;}
+            => 표 사이의 간격을 없애준다\
+
+    2. 글자의 위 아래 크기 조정
+        - vertical-align
+            => inline/ inline-block일때사용
+                (inline은 항상 옆으로 채워지는 폭과 너비가 없는 요소)
+
+        - vertical-align에 여러가지 스타일링을 줄 수 있는데 
+            table같은경우에는 top middle bottom밖에 못준다
