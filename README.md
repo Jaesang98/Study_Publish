@@ -171,3 +171,38 @@
 
         - vertical-align에 여러가지 스타일링을 줄 수 있는데 
             table같은경우에는 top middle bottom밖에 못준다
+
+
+## part 1-16 Table 레이아웃 숙제 : Cart 페이지 만들기
+    1. 셀렉터 태그:nth-child(2)
+        => 셀렉터 밑에 있는 태그 중 2번쨰에 적용
+            순서마다 스타일링을 줘야할 때 사용
+
+    2. 테이블 열 합칠 때는 colapse
+
+
+## part 1-17 pseudo-class로 인터랙티브 버튼 만들기
+    1. pseudo-class
+        - 상태에 따라서 스타일을 줄 수 있음
+    
+    2. 스타일링
+        - 셀렉터:hover {} 마우스 갓다댔을때
+
+        - 셀렉터:active 클릭했을 때
+
+        - 셀렉터:focus 포커스됬을 때 (인풋 클릭 시 테두리 변할 때 사용)
+        (순서는 h f a 순으로 적기)
+
+        - 방문적 링크와 방문 후 링크는 link, visited 순으로 적용
+
+
+## part 1-18 코드양이 줄어드는 class 작명법 (OOCSS, BEM)
+    1. Object Oriented CSS
+        - 유틸리티 스타일링
+        - CSS작성 시 뼈대와 살점을 만들어 편리하고 유지보수 하기 좋게 만든다
+
+    2. BEM 
+        - Block_Element--Modifier 의 약자
+        - 클래스명 작성할 때 창의력이 딸리는경우에 사용하는 기법
+        - class="덩어리이름__역할--세부특징"
+            => 대부분 근데 덩어리-역할 이런식으로함

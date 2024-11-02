@@ -235,3 +235,26 @@ td, th {
 table {
     border-collapse: collapse;
 }
+
+.hw3-container {
+    padding: 20px;
+    width: 1000px;
+    height: 600px;
+    background-color: #c2d3de;
+}
+
+.hw3-container img {
+    width: 80px;
+}
+
+th {
+    border : none;
+}
+
+.hw3-table{
+    width: 70%;
+    height: auto;
+    background-color: white;
+    border-radius: 5px;
+    border: none;
+}
