@@ -234,7 +234,8 @@ body {
     background-color: yellow;
 }
 
-td, th {
+td,
+th {
     border: 1px solid black;
 }
 
@@ -254,13 +255,66 @@ table {
 }
 
 th {
-    border : none;
+    border: none;
 }
 
-.hw3-table{
+.hw3-table {
     width: 70%;
     height: auto;
     background-color: white;
     border-radius: 5px;
     border: none;
+    padding: 10px;
+}
+
+.hw4-header {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.hw4-icon {
+    flex-grow: 2;
+    color: white;
+}
+
+.hw4-menu {
+    margin-right: 10px;
+    color: white;
+}
+
+.hw5-container {
+    width: 50%;
+    background-color: #666;
+    color: white;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+}
+
+.hw5-item {
+    margin: 10px;
+    background-color: #c2d3de;
+    padding: 10px;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width:768px) {
+    .hw5-item {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .hw5-container {
+        flex-direction: column;
+    }
 }

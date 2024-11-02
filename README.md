@@ -225,3 +225,96 @@
 
     4. 폰트를 줬을 떄 깨지는 현상
         - transform: rotate(0.03deg) 정도를 주면 깨짐이 덜하다.
+
+
+## part 2-2 레이아웃 만들기 3 : 편리한 Flexbox
+    1. flex
+        - display : flex; 를 하면 쉽게 요소를 가로에 둘 수 있다
+    
+    2. justfy-content
+        - flex를 사용한 요소에서 사용가능
+        - center(가운데), flex-end(오른쪽), flex-start(왼쪽), space-between(사이간격)
+
+    3. flex-direction
+        - row, colum을 사용하여 가로 세로 배치가 가능하다
+
+    4. flex-wrap
+        - 넘치면 밑으로가기
+
+    5. align-items
+        - flex부모 밑의 요소 위아래로 상하정렬이 가능
+
+    6. flex-grow
+        - 배수만큼 칸을 차지하는건데 대부분 헤더의 로고랑 메뉴바 사이 간격 벌릴 때 사용
+
+
+## part 2-3 HTML CSS 코드짤 때 유용한 Emmet 그리고 부가기능들
+    1. 재밌는 부가기능
+        - Power Mode, Emmet                                                        
+
+
+## part 2-4 head 태그에 들어갈 내용 정리
+    1. head
+        - <link href="css/main.css" rel="stylesheet">
+        - <title>네이버입니다</title>
+        - <meta charset="UTF-8">
+            => 인코딩 형식
+
+        - 사이트의 검색 결과 화면에 뜨는 글귀
+            <meta name="description" content="html 잘하는 코딩애플입니다.">
+                => 구글 검색시 파란 제목으로 뜨는 글귀
+            <meta name="keywords" content="HTML,CSS,JavaScript,자바스크립트,코딩">
+                => 검색에 도움을 주는 키워드
+
+        - 사이트 초기 zoom 레벨이나 폭
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            => initial-scale=1 이 부분은 접속시의 화면 줌레벨 
+
+        - facebook이 만든 og 라는 메타태그
+        <meta property="og:image" content="/이미지경로.jpg">
+        <meta property="og:description" content="사이트설명">
+        <meta property="og:title" content="사이트제목">
+
+        - 아이콘이
+        <link rel="icon" href="아이콘경로.ico" type="image/x-icon">
+
+
+## part 2-5 반응형 레이아웃 만들기
+    1. 단위
+        - vw : 브라우저 폭에 비례
+        - vh : 브라우저 높이에 비례
+        - rem : 기본 폰트사이즈에 비례 (1rem = 16px)
+            => 디자인할떄 px외우기 귀찮을 때 사용
+                이전에는 폰트 확대하는 기능 때문에 사용을 했었다
+
+    2. media query
+        @media screen and (max-width:1200px)
+            => 1200px 이하일때 이 스타일 적용
+
+        * 1200px (테블릿) 768px 576px(모바일)
+
+## part 2-6 반응형 레이아웃 숙제 : 가로정렬 레이아웃
+    1. 하면서 꺠달은점
+        - height는 웬만하면 auto로 
+        - flex-direction 사용 많이해보기
+
+
+## part 2-7 크롬 개발자 도구와 IE호환성 잡기
+    1. 개발자 도구 사용하기
+        - 주황색 : margin
+        - 파랑색 : content
+        - 초록색 : padding
+
+    2. 호환성
+        익스플로러 X 버전 이하에서만 적용할 수 있는 CSS파일을 첨부
+        <!--[if lt IE 9]>
+            <link rel="stylesheet" type="text/css" href="css/ie8.css" />
+        <![endif]-->
+    
+## part 2-8 Font Awesome 아이콘 넣기
+    1. cdn
+        - <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        -https://fontawesome.com/icons
+        
+        => 크기는 폰트사이즈를 적용하면된다
