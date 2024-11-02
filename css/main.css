@@ -1,3 +1,8 @@
+@font-face {
+    font-family: '이쁜폰트';
+    src: url(../font/NanumSquareAcB.ttf);
+}
+
 body {
     margin: 0px;
 }
@@ -180,6 +185,7 @@ body {
     font-size: 17px;
     color: black;
     font-weight: 500;
+    font-family: '이쁜폰트';
 }
 
 .hw2-form {
