@@ -289,7 +289,7 @@ th {
 }
 
 .hw5-container {
-    width: 50%;
+    width: 40%;
     background-color: #666;
     color: white;
     padding: 10px;
@@ -303,15 +303,93 @@ th {
     margin: 10px;
     background-color: #c2d3de;
     padding: 10px;
-    width: 20%;
     box-sizing: border-box;
+    border-radius: 50px;
 }
 
-@media screen and (max-width:768px) {
-    .hw5-item {
-        width: 40%;
-    }
+.shop-bg {
+    background: #eee;
+    padding: 20px;
 }
+
+.shop-container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+}
+
+.shop-item {
+    width: 33%;
+    padding: 10px;
+}
+
+.shop-item img {
+    width: 100%;
+    display: block;
+}
+
+.overlay {
+    margin-top: 100%;
+    width: 100%;
+    height: 100%;
+    background: #666;
+    opacity: 0;
+    transition: all 1s;
+}
+
+.shop-item-area {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.shop-item-area:hover .overlay {
+    margin-top: 50%;
+    opacity: 0.5;
+}
+
+.port-container {
+    background-color: rgb(74, 139, 213);
+    width: 100vw;
+    height: 100vh;
+}
+
+.port-firstContents {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.port-detail {
+    color: white;
+}
+
+.port-btn {
+    padding: 10px;
+    color: white;
+    background-color: #666;
+    border: none;
+    border-radius: 5px;
+}
+
+.port-img {
+    width: 30%;
+}
+
+.port-secondContents {
+    width: 100%;
+    height: 25%;
+    background-color: white;
+    padding: 10px;
+}
+
+.port-second {
+    width: 40%;
+    text-align: center;
+}
+
+@media screen and (max-width:768px) {}
 
 @media screen and (max-width:576px) {
     .hw5-container {

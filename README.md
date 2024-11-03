@@ -318,3 +318,17 @@
         -https://fontawesome.com/icons
         
         => 크기는 폰트사이즈를 적용하면된다
+
+
+## part 2-9 Transition 속성으로 CSS 애니메이션 구현하기
+    1. transition
+        - transition: 스타일 초s : 스타일이 변하면 초만큼 서서히 변경한다
+            => 스타일은 all로 줘도된다
+
+    2. transition-timing-function
+        - 점점 빠르게 or 점점 느리게 스타일 변화를 줄 수 있음
+
+
+## part 2-10 Transition 숙제 : 상품진열 레이아웃과 애니메이션
+    1. .test:hover .test2{}
+        => 이런식으로 hover 시 다른 클래스에 이벤트가 발생을 일으킬 수 있다.
