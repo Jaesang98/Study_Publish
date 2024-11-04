@@ -350,12 +350,13 @@ th {
 }
 
 .port-container {
-    background-color: rgb(74, 139, 213);
+    background: linear-gradient(to bottom, rgb(74, 139, 213), rgb(78,97,192)); 
     width: 100vw;
     height: 100vh;
 }
 
 .port-firstContents {
+    height: 40vh;
     display: flex;
     justify-content: space-between;
     padding: 20px;
@@ -375,11 +376,12 @@ th {
 
 .port-img {
     width: 30%;
+    height: auto;
 }
 
 .port-secondContents {
     width: 100%;
-    height: 25%;
+    height: 25vh;
     background-color: white;
     padding: 10px;
 }
@@ -387,9 +389,103 @@ th {
 .port-second {
     width: 40%;
     text-align: center;
+    margin: 0 auto;
 }
 
-@media screen and (max-width:768px) {}
+.port-thirdContents {
+    width: 100%;
+    height: 35vh;
+    background-color: rgb(78,97,192);
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+
+.port-itmeList {
+    display: flex;
+    padding: 10px;
+}
+
+.port-itmeList div {
+    width: 25%;
+  }
+
+.port-item {
+    background-color: #aaaaaa;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.port2-container {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.port2-contents {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.port2-contents div {
+    width: 45%;
+    position: relative;
+}
+
+.item-border {
+    width: 100%;
+    height: 100%;
+    border : 0px solid white;
+    position: absolute;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+
+.item-border:hover {
+    border : 30px solid white;
+}
+
+.port2-contents img {
+    width: 100%;
+    height: 100%;
+}
+
+.port2-itmeList div {
+    width: 10%;
+    margin-top: 50px;
+  }
+
+.port2-itmeList {
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.footer-text {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.item1:hover {
+    border: 2px solid black;
+}
+
+@media screen and (max-width:768px) {
+    .port-firstContents {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+}
 
 @media screen and (max-width:576px) {
     .hw5-container {

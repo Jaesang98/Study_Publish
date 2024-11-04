@@ -332,3 +332,12 @@
 ## part 2-10 Transition 숙제 : 상품진열 레이아웃과 애니메이션
     1. .test:hover .test2{}
         => 이런식으로 hover 시 다른 클래스에 이벤트가 발생을 일으킬 수 있다.
+
+
+## part 2-11 Portfolio 실습 1 : Landing Page
+    1. 하면서 느낀점
+        - box-size 잘 체크하기 padding 잘 주기
+
+    2. 새롭게 안거
+        - Linear Gradient (한쪽에서 다른한쪽으로 색상 변화)
+        - Radial Gradient (중심에서부터 바깥쪽으로 색상이 변화)
