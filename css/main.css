@@ -478,6 +478,33 @@ th {
     border: 2px solid black;
 }
 
+.pt3-bg {
+    background-color: #f7f9fc   ;
+    padding: 10px;
+}
+
+.pt3-Area1 {
+    background-color: white;
+    padding: 10px;
+}
+
+progress{
+    appearance: none;
+}
+
+progress::-webkit-progress-inner-element {
+    /* background-color: aqua; */
+}
+
+progress::-webkit-progress-bar {
+    /* background-color: aqua; */
+
+}
+
+progress::-webkit-progress-value {
+    /* background-color: aqua; */
+}
+
 @media screen and (max-width:768px) {
     .port-firstContents {
         justify-content: center;

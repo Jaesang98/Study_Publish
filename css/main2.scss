@@ -1,0 +1,12 @@
+.ㅁㅁㅁ {
+    width: 10px;
+    height: 10px;
+    color: aqua;
+    padding: 10px;
+    margin: auto;
+}
+
+.aaaa {
+    @extend .ㅁㅁㅁ;
+    background-color: azure;
+}
