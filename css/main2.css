@@ -1,12 +1,37 @@
-@charset "UTF-8";
-.ㅁㅁㅁ, .aaaa {
-  width: 10px;
-  height: 10px;
-  color: aqua;
+.hw-list {
   padding: 10px;
-  margin: auto;
+  list-style-type: none;
+  width: 40%;
+}
+.hw-list .hw-list-item {
+  padding: 10px;
+  border: 1px solid #eee;
+}
+.hw-list .active {
+  background-color: rgb(58, 58, 241);
+}
+.hw-list :hover {
+  background-color: bisque;
+  color: white;
 }
 
-.aaaa {
-  background-color: azure;
+.hw-alert p:nth-child(3), .hw-alert p:nth-child(2), .hw-alert p:nth-child(1) {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hw-alert p:nth-child(1) {
+  background-color: aquamarine;
+  color: rgb(74, 126, 92);
+}
+
+.hw-alert p:nth-child(2) {
+  background-color: rgb(164, 177, 172);
+  color: rgb(74, 126, 92);
+}
+
+.hw-alert p:nth-child(3) {
+  background-color: rgb(10, 26, 20);
+  color: rgb(74, 126, 92);
 }/*# sourceMappingURL=main2.css.map */
