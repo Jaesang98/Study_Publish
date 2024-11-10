@@ -12,7 +12,7 @@
         background-color: rgb(58, 58, 241);
     }
 
-    :hover {
+    &:hover {
         background-color: bisque;
         color: white;
     }
@@ -42,4 +42,63 @@
 .hw-alert p:nth-child(3) {
     @extend %alert;
     @include alert2Style(rgb(10, 26, 20), rgb(74, 126, 92));
+}
+
+
+.ani-btn1 {
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: cadetblue;
+
+    &:hover {
+        animation-name: btn1;
+        animation-duration: 1s;
+    }
+}
+
+@keyframes btn1 {
+    0% {
+        transform: rotate(20deg);
+    }
+
+    50% {
+        transform: rotate(-20deg);
+    }
+
+    75% {
+        transform: rotate(20deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes plus {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    50% {
+        transform: rotate(-30deg);
+    }
+
+    100% {
+        transform: scale(2) rotate(30deg);
+    }
+}
+
+.ani-plus {
+    margin: 150px auto;
+    text-align: center;
+    font-size: 70px;
+    width: 84px;
+    cursor: pointer;
+
+    &:hover {
+        animation-name: plus;
+        animation-duration: 1s;
+    }
 }
