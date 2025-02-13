@@ -6,6 +6,7 @@
 - Hypertext Markup Language의 약자
 - Markup 언어
 
-### 🔹 세팅
+### 🔹 세팅 및 실행
 
-- Extention -> live server
+- Extention에서 live server 설치
+- html우클릭 후 open with live server
