@@ -2,8 +2,9 @@
 
 ### 🔹 HTML
 
-- 자료들이 어떻게 생겼나 구조로 표현하기 위한 언어
+- 웹 페이지 만들 때 사용
 - Hypertext Markup Language의 약자
+- Markup 언어
 
 ### 🔹 세팅
 
