@@ -1,0 +1,62 @@
+.profile {
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  text-align: center;
+  font-size: 16px;
+}
+
+.content {
+  text-align: center;
+}
+
+.box {
+  width: 200px;
+  background: cadetblue;
+  margin: 10px;
+  padding: 40px;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+  box-shadow: 5px 5px 5px black;
+}
+
+.container {
+  width: 800px;
+}
+
+.hw1-blogWrapper {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.hw1-blogLeft {
+  width: 70%;
+}
+.hw1-blogRight {
+  width: 30%;
+}
+
+.hw1-img1 {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.hw1-profile {
+  display: flex;
+  gap: 5px;
+  margin-bottom: 15px;
+}
+
+.hw1-img2 {
+  width: 150px;
+  height: 150px;
+}
