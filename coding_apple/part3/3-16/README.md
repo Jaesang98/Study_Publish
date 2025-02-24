@@ -1,8 +1,3 @@
-## 💡 part3-16 CSS 3D animation : 종이처럼 뒤집히는 프로필사진 만들기
+## 💡 part3-16 Portfolio 실습 3 : Admin Page (해설편)
 
-### 🔹 뒤집기
-
-```css
-transform-style: preserve-3d;
-transform: rotateY(180deg);
-```
+### 🔹 숙제
