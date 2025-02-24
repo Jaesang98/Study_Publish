@@ -1,0 +1,86 @@
+.hw-list {
+  padding: 10px;
+  list-style-type: none;
+  width: 40%;
+}
+.hw-list .hw-list-item {
+  padding: 10px;
+  border: 1px solid #eee;
+}
+.hw-list .active {
+  background-color: rgb(58, 58, 241);
+}
+.hw-list:hover {
+  background-color: bisque;
+  color: white;
+}
+
+.hw-alert p:nth-child(3), .hw-alert p:nth-child(2), .hw-alert p:nth-child(1) {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.hw-alert p:nth-child(1) {
+  background-color: aquamarine;
+  color: rgb(74, 126, 92);
+}
+
+.hw-alert p:nth-child(2) {
+  background-color: rgb(164, 177, 172);
+  color: rgb(74, 126, 92);
+}
+
+.hw-alert p:nth-child(3) {
+  background-color: rgb(10, 26, 20);
+  color: rgb(74, 126, 92);
+}
+
+.ani-btn1 {
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: cadetblue;
+}
+.ani-btn1:hover {
+  animation-name: btn1;
+  animation-duration: 1s;
+}
+
+@keyframes btn1 {
+  0% {
+    transform: rotate(20deg);
+  }
+  50% {
+    transform: rotate(-20deg);
+  }
+  75% {
+    transform: rotate(20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+@keyframes plus {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(-30deg);
+  }
+  100% {
+    transform: scale(2) rotate(30deg);
+  }
+}
+.ani-plus {
+  margin: 150px auto;
+  text-align: center;
+  font-size: 70px;
+  width: 84px;
+  cursor: pointer;
+}
+.ani-plus:hover {
+  animation-name: plus;
+  animation-duration: 1s;
+}/*# sourceMappingURL=main2.css.map */

@@ -1,0 +1,153 @@
+.grid-nav {
+  grid-area: 헤더;
+}
+.grid-sidebar {
+  grid-area: 사이드;
+}
+.grid-content {
+  grid-area: 내용;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 100px 100px 100px;
+  grid-gap: 10px;
+  padding: 10px;
+  grid-template-areas:
+    "헤더 헤더 헤더 헤더"
+    "사이드 내용 내용 내용"
+    "사이드 내용 내용 내용";
+}
+
+.grid-container div {
+  border: 1px solid black;
+}
+
+.grid-container2 {
+  display: grid;
+  max-width: 600px;
+  margin: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 10px;
+}
+
+.grid-container2 img {
+  width: 100%;
+}
+
+.grid-first-img {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+.grey {
+  background: lightgrey;
+  height: 2000px;
+  margin-top: 500px;
+}
+.text {
+  float: left;
+  width: 300px;
+}
+.image {
+  float: right;
+  width: 400px;
+  position: sticky;
+  top: 100px;
+}
+
+.nav-link {
+  position: relative;
+}
+.badge {
+  position: absolute;
+  top: 0px;
+  left: 15px;
+}
+
+.input-animation {
+  width: 150px;
+  transition: width 1s;
+}
+.input-animation:focus {
+  width: 500px;
+}
+
+.sidebar {
+  width: 150px;
+  height: 100vh;
+  background: #484bb3;
+  position: fixed;
+  z-index: 5;
+  color: white;
+  /*  애니메이션시작화면 */
+  transition: all 0.5s;
+  transform: translateX(-100px);
+}
+.sidebar:hover {
+  /*  애니메이션최종화면 */
+  transition: all 0.5s;
+  transform: translateX(0px);
+}
+.sidebar div {
+  margin: 12px 0px 0px 15px;
+}
+.content {
+  margin-left: 50px;
+}
+
+.sidebar i {
+  transition: all 0.5s;
+  transform: translateX(100px);
+}
+.sidebar:hover i {
+  transform: translateX(0px);
+}
+
+.flip-outer {
+  width: 300px;
+  height: 300px;
+}
+
+.flip-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: all 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-inner:hover {
+  transform: rotateY(180deg);
+}
+
+.front {
+  width: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+  z-index: 1;
+}
+
+.back {
+  width: 100%;
+  background-color: yellow;
+  height: 100%;
+  border-radius: 50%;
+  text-align: center;
+  position: absolute;
+  transform: rotateY(180deg);
+}
+
+@media screen and (max-width: 768px) {
+  .grid-container2 {
+    grid-template-areas:
+      "헤더 헤더 헤더 헤더"
+      "사이드바 사이드바 사이드바 사이드바"
+      "내용 내용 내용 내용";
+  }
+  .grid-first-img {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+}
